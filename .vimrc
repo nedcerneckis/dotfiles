@@ -1,8 +1,10 @@
 syntax on
 set tabstop=2
 set shiftwidth=2
+set smarttab
 set expandtab
-set ai
+set autoindent
+set smartindent
 set number
 set hlsearch
 set ruler
