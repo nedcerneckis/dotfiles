@@ -31,5 +31,5 @@ MiscShowUnsafePasteDialog=TRUE
 ColorForeground=#ffffffffffff
 ColorBackground=#103610361036
 ColorCursor=#dcdcdc
-ColorPalette=rgb(12,12,12);rgb(112,80,80);rgb(180,96,96);rgb(223,175,143);rgb(154,184,215);rgb(220,140,195);rgb(140,208,211);rgb(255,255,255);rgb(112,144,128);rgb(220,163,163);rgb(242,88,88);rgb(240,223,175);rgb(61,135,200);rgb(236,147,211);rgb(147,224,227);rgb(255,255,255)
+ColorPalette=rgb(12,12,12);rgb(151,57,57);rgb(99,180,96);rgb(223,175,143);rgb(154,184,215);rgb(220,140,195);rgb(140,208,211);rgb(255,255,255);rgb(112,144,128);rgb(220,163,163);rgb(242,88,88);rgb(240,223,175);rgb(61,135,200);rgb(236,147,211);rgb(147,224,227);rgb(255,255,255)
 
