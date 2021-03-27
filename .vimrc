@@ -1,13 +1,35 @@
-syntax on
-set tabstop=2
-set shiftwidth=2
-set smarttab
-set expandtab
-set autoindent
-set smartindent
-set number
-set hlsearch
-set ruler
-set timeout timeoutlen=5000 ttimeoutlen=0
-highlight Comment ctermfg=green
+" Start Vundle
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Bundles
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+" End Vundle
+call vundle#end()
+filetype plugin indent on
+
+" Highlighting and Display
 colorscheme jellybeans
+let g:airline_theme='powerlineish'
+syntax on
+set ruler
+set title
+set number
+set modeline
+set showcmd
+set showmode
+set ls=2
+highlight Comment ctermfg=green
+
+" Indent
+set shiftwidth=2
+set tabstop=2
+set expandtab
+
+" Speed it up
+set timeout timeoutlen=5000 ttimeoutlen=0
