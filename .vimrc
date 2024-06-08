@@ -26,6 +26,9 @@ set showmode
 set ls=2
 highlight Comment ctermfg=green
 
+" Mapping
+map <F8> : !gcc % && ./a.out <CR>
+
 " Indent
 set shiftwidth=2
 set tabstop=2
